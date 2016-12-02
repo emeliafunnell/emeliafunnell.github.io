@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <!-- This is the title of the page.  You'll see it labelling the tab in your browser. -->
+    <title>Portfolio | Emelia Funnell</title>
+    <!-- This is a link to the CSS stylesheet. -->
+    <link href="1371_template_styles.css" rel="stylesheet" />
+    <!-- This is a link to Google Fonts, so we can use Open Sans - referenced in our stylesheet. -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
+    <link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body onload="document.getElementById('lastModifiedLabel').innerText = document.lastModified;">
+    <!-- Navigation Bar-->
+    <div class="navbar">
+        <a href="#top">HOME</a>
+        <a href="#description">ABOUT ME</a>
+        <a href="#affiliations">AFFILIATIONS</a>
+        <a href="#photos">PHOTOS</a>
+        <a href="#aspiration">ASPIRATION</a>
+        <a href="#contact">CONTACT</a>
+        <a href="resume.html">RESUME</a>
+    </div>
+
+
+    <!-- Header Section - has the name -->
+    <section id="header">
+        <div class="header">
+            <h1>EMELIA FUNNELL</h1>
+            <ul class="header-list">
+              <li><a class="link-navy important" href="https://www.linkedin.com/in/emeliafunnell"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+              <li><a class="link-navy important" href="mailto:emeliafunnell@gatech.edu"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+    </section>
+
+
+    <!-- Content Section -->
+    <!-- The section tags are used for navigation, but all the content is contained within a div of class 'content'. -->
+    <section id="description">
+        <div class="content">
+            <img src="headshot.png" id="header_image"/>
+            <h2>
+                About Me
+          <div class="line-separator-navy"></div>
+            </h2>
+            <p>
+               I'm Emelia Funnell, and I'm a second year student pursuing a Bachelor of Science in Biomedical Engineering with the International Plan designation at the Georgia Institute of Technology. I chose to pursue Biomedical Engineering because after my own run in with MRI technology, I realized that I want to work to improve the healthcare and lives of those with medical conditions. During my time at Georgia Tech, I have been able to take advantage of a number of opportunities as well as learn more about myself than I ever have before. I have fulfilled a minor in Spanish after spending a summer studying in Mexico and Ecuador. 
+            </p>
+        </div>
+    </section>
+
+    <!-- Content Section, with Parallax Scrolling -->
+    <section id="affiliations">
+        <div class="content parallax">
+            <h2>
+                Affiliations
+           <div class="line-separator-gold"></div>
+            </h2>
+            <dl>
+                <dt>
+                    <b> Alpha Phi - Iota Mu Chapter </b>
+                    <dd>
+                        <li> Asst. Director of New Member Education (November 2016 - Present) </li>
+                        <li>Director of Philanthropy (October 2015 - October 2016)</li>
+                    </dd>
+                </dt>
+                <dt> <b> Georgia Tech Parent & Family Programs</b> 
+                <dd>
+                        <li> Student Leader (April 2015 - Present) </li>
+               </dd>
+                </dt>
+                <dt>
+                    <b> Georgia Tech Alternative Service Breaks </b>
+                    <dd>
+                        <li> Habitat for Humanity of Taos (March 2016) </li>
+                        <li> Asheville Area Habitat for Humanity (October 2015)</li>
+                    </dd>
+                </dt>
+<dt> <b>Georgia Tech Spanish Speaking Organization</b> 
+                <dt>
+                        <dd> <li>Director of Campus Relations (September 2016 - Present)</li> </dd>
+               </dt>
+                </dt>
+            <dt> <b> Georgia Tech Habitat for Humanity</b> </dt>
+            <dt> <b> Georgia Tech Jazz Ensemble</b> </dt>
+            </dl>
+        </div>
+    </section>
+
+    <!-- Content Section -->
+    <section id="photos">
+        <div class="content">
+            <h2>
+                Photos
+   <div class="line-separator-navy"></div>
+            </h2>
+            <ul class="img-list">
+                <li>
+                     <a href="http://alphaphi.org/">
+                     <img src="reddress.jpg" id="reddress"/>
+                     <span class="text-content"><span>Alpha Phi Red Dress Gala</span></span>
+                </a>
+                </li>
+                <li>
+                     <a href="http://www.modlangs.gatech.edu/study-abroad">
+                     <img src="teo.jpg" id="teo"/>
+                     <span class="text-content"><span>Teotihuacan</span></span>
+                </a>
+                </li>
+                <li>
+                     <a href="https://www.facebook.com/gatechasb/">
+                     <img src="asb.jpg" id="asb"/>
+                     <span class="text-content"><span>Taos Habitat for Humanity</span></span>
+                </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Content Section -->
+    <section id="aspiration">
+        <div class="content">
+            <h2>
+               Aspiration
+   <div class="line-separator-gold"></div>
+            </h2>
+            <p>
+                At this point in my life, there are so many twists and turns and different paths to take. My ultimate goal is to work to develop and implement medical technologies in developing countries, specifically those in Latin America. Although I may not know exactly what turns to take to reach this goal, I strive to live with purpose by keeping my to-do list full and continuing to explore all of the possible outlets for my own success.
+            </p>
+        </div>
+    </section>
+
+    <!-- Content Section -->
+    <section id="contact">
+        <div class="content">
+            <h2>
+                Contact Me
+   <div class="line-separator-navy"></div>
+            </h2>
+          <form method=POST action="/cgi-bin/mailform">
+               
+<input name="mform-email" value="emeliafunnell@gatech.edu" type="hidden">
+
+               <input name="mform-encoding" value="base64" type="hidden">
+
+Name: <input name="name" type="name">
+               <p> <input name="mform-subject" value="subject" type="hidden">
+
+Subject: <input name="subject" type="subject">
+
+               </p>
+               <p>
+
+Message:<br><textarea name="comments" rows="6" cols="60" wrap="virtual"></textarea>
+
+</p>
+               <p>
+<input value="Done" type="submit">
+
+
+</p>
+           </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section id="footer">
+        <div class="footer">
+            <div class="center-content">
+               Copyright <i class="fa fa-copyright" aria-hidden="true"></i> 2016 Emelia Funnell
+            </div>
+        </div>
+    </section>
+</body>
+</html>

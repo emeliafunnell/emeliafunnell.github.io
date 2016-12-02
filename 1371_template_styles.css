@@ -1,0 +1,244 @@
+﻿body {
+    font-family: 'Roboto', sans-serif; 
+    margin: 0px;
+    background-color: rgba(231, 199, 150, 1.0);
+    color: rgba(0, 37, 76, 1.0);
+}
+
+/*These are Navbar properties - they give it a shadow, allow it to stay fixed at the top of the window, and style the links*/
+.navbar {
+    height: 60px;
+    text-align: center;
+    position: fixed;
+    background-color: rgba(231, 199, 150, 1.0);
+    width: 100%;
+    top: 0px;
+}
+
+    .navbar a {
+        line-height: 60px;
+        color: rgba(0, 37, 76, 1.0);
+        text-decoration: none;
+        width: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+        border: none;
+    }
+
+        .navbar a:hover {
+              color: rgba(0, 37, 76, 0.6);
+        }
+
+.link-navy {
+     color: rgba(0, 37, 76, 1.0);
+}
+
+.link-navy:hover {
+   color: rgba(0, 37, 76, 0.6);
+}
+
+/*Header properties*/
+.header {
+    margin-top: 100px;
+}
+
+.header-list {
+     list-style: none;
+     text-align: center;
+}
+
+.header-list li {
+     margin: 0px;  
+     text-align: center;
+     display: inline;
+     font-size: 35px;
+     padding: 10px 8px 10px 8px;
+     margin-left: 10px;
+     margin-right: 10px;
+} 
+
+.header-sub {
+     list-style: none;
+     margin: 0px;  
+     text-align: center;
+     font-size: 20px;
+     padding: 10px 8px 10px 8px;
+     margin-left: 10px;
+     margin-right: 10px;
+}
+
+#header_image {
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+    margin-top: 25px;
+    border-radius: 125px;
+    border: 5px solid rgba(0, 37, 76, 1.0);
+    float: right;
+    vertical-align: center;
+}
+
+h1 {
+    font-family: 'Lucida Bright';
+    font-weight: 300;
+    font-size: 80px;
+    line-height: 100px;
+    margin: 0px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h2 {
+     font-family: 'Lucida Bright';
+    padding-bottom: 5px;
+}
+
+pre {
+    display: block;
+    font-family: 'Didact Gothic';
+    white-space: pre;
+    margin: 1em 0;
+} 
+
+tab1{ padding-left: 14em; }
+tab2{padding-left: 21em; }
+
+.line-separator-about{
+height:1px;
+background: rgba(0, 37, 76, 1.0);
+border-bottom: 1px solid rgba(0, 37, 76, 1.0);
+width: 80%;
+margin-left: 23%;
+}
+
+.line-separator-navy{
+height:1px;
+background: rgba(0, 37, 76, 1.0);
+border-bottom: 1px solid rgba(0, 37, 76, 1.0);
+width: 80%;
+}
+
+.line-separator-gold{
+height:1px;
+background: rgba(231, 199, 150, 1.0);
+border-bottom: 1px solid rgba(231, 199, 150, 1.0);
+width: 80%;
+}
+
+
+#aspiration {
+background-color: rgba(0, 37, 76, 1.0);
+color: rgba(231, 199, 150, 1.0);
+}
+
+#affiliations {
+background-color: rgba(0, 37, 76, 1.0);
+color: rgba(231, 199, 150, 1.0);
+}
+
+/*Standard content section properties*/
+.content {
+    clear: both;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    left: 0px;
+    right: 0px;
+    font-size: medium;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: x-large;
+}
+
+/*Footer properties*/
+.footer {
+    clear: both;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 60px;
+    padding-bottom: 120px;
+    left: 0px;
+    right: 0px;
+    font-size: medium;
+    background-color: rgba(0, 37, 76, 1.0);
+    color: rgba(231, 199, 150, 1.0);
+}
+
+/*Footer properties*/
+.footer-gold {
+    clear: both;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 60px;
+    padding-bottom: 120px;
+    left: 0px;
+    right: 0px;
+    font-size: medium;
+    background-color: rgba(231, 199, 150, 1.0);
+    color:  rgba(0, 37, 76, 1.0);
+}
+
+.center-content {
+    display: block
+    width: 50%;
+    font-size: small;
+    text-align: center;
+}
+
+ul.img-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+ul.img-list li {
+     display: inline-block;
+     height: 200px;
+     margin: 0 1em 1em 0;
+     position: relative;
+     width: 300px;
+}
+
+ul.img-list li img {
+     height: 200px;
+     width: 300px;
+}
+
+span.text-content {
+    background: rgba(0,0,0,0.5);
+    color: white;
+    cursor: pointer;
+    display: table;
+    height: 200px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 300px;
+    opacity: 0;
+    -webkit-transition: opacity 500ms;
+     -moz-transition: opacity 500ms;
+     -o-transition: opacity 500ms;
+     transition: opacity 500ms;
+}
+
+span.text-content span {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+ul.img-list li:hover span.text-content {
+    opacity: 1;
+}
+
+#skills {
+    color: rgba(231, 199, 150, 1.0);
+    background-color:  rgba(0, 37, 76, 1.0);
+}
