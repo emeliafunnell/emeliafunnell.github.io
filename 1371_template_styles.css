@@ -15,19 +15,19 @@
     top: 0px;
 }
 
-    .navbar a {
-        line-height: 60px;
-        color: rgba(0, 37, 76, 1.0);
-        text-decoration: none;
-        width: auto;
-        margin-left: 20px;
-        margin-right: 20px;
-        border: none;
-    }
+.navbar a {
+    line-height: 60px;
+    color: rgba(0, 37, 76, 1.0);
+    text-decoration: none;
+    width: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: none;
+}
 
-        .navbar a:hover {
-              color: rgba(0, 37, 76, 0.6);
-        }
+.navbar a:hover {
+      color: rgba(0, 37, 76, 0.6);
+}
 
 .link-navy {
      color: rgba(0, 37, 76, 1.0);
@@ -104,25 +104,25 @@ tab1{ padding-left: 14em; }
 tab2{padding-left: 21em; }
 
 .line-separator-about{
-height:1px;
-background: rgba(0, 37, 76, 1.0);
-border-bottom: 1px solid rgba(0, 37, 76, 1.0);
-width: 80%;
-margin-left: 23%;
+	height:1px;
+	background: rgba(0, 37, 76, 1.0);
+	border-bottom: 1px solid rgba(0, 37, 76, 1.0);
+	width: 80%;
+	margin-left: 23%;
 }
 
 .line-separator-navy{
-height:1px;
-background: rgba(0, 37, 76, 1.0);
-border-bottom: 1px solid rgba(0, 37, 76, 1.0);
-width: 80%;
+	height:1px;
+	background: rgba(0, 37, 76, 1.0);
+	border-bottom: 1px solid rgba(0, 37, 76, 1.0);
+	width: 80%;
 }
 
 .line-separator-gold{
-height:1px;
-background: rgba(231, 199, 150, 1.0);
-border-bottom: 1px solid rgba(231, 199, 150, 1.0);
-width: 80%;
+	height:1px;
+	background: rgba(231, 199, 150, 1.0);
+	border-bottom: 1px solid rgba(231, 199, 150, 1.0);
+	width: 80%;
 }
 
 
@@ -241,4 +241,8 @@ ul.img-list li:hover span.text-content {
 #skills {
     color: rgba(231, 199, 150, 1.0);
     background-color:  rgba(0, 37, 76, 1.0);
+}
+
+#description {
+	padding-bottom: 35px;
 }
